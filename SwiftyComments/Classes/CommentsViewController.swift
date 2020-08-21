@@ -35,6 +35,7 @@ open class CommentsViewController: UITableViewController, SwipeTableViewCellDele
         get {
             return _currentlyDisplayed
         } set(value) {
+            self._currentlyDisplayed = []
             if fullyExpanded {
                 linearizeComments(comments: value, linearizedComments: &_currentlyDisplayed)
             } else {
