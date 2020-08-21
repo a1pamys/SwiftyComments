@@ -76,7 +76,7 @@ open class CommentsViewController: UITableViewController, SwipeTableViewCellDele
             tableView.estimatedSectionFooterHeight = 0
             tableView.estimatedSectionHeaderHeight = 0
         } else {
-            tableView.rowHeight = UITableView.automaticDimension
+            tableView.rowHeight = UITableViewAutomaticDimension
             tableView.estimatedRowHeight = 400.0
         }
     }
