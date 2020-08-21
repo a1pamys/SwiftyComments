@@ -219,7 +219,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 5P2WT92MAV;
+						DevelopmentTeam = 8XD96ZUA34;
 						LastSwiftMigration = 1110;
 					};
 				};
@@ -401,6 +401,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -449,6 +450,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -458,7 +460,7 @@
 			baseConfigurationReference = 9B24187D6EE6E1D933C760BD /* Pods-SwiftyComments_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5P2WT92MAV;
+				DEVELOPMENT_TEAM = 8XD96ZUA34;
 				INFOPLIST_FILE = SwiftyComments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -474,7 +476,7 @@
 			baseConfigurationReference = 1CC498939563D62229064CAC /* Pods-SwiftyComments_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5P2WT92MAV;
+				DEVELOPMENT_TEAM = 8XD96ZUA34;
 				INFOPLIST_FILE = SwiftyComments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
